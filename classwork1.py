@@ -1,3 +1,4 @@
+import random
 apple=15.5
 orange=20
 grape=10.25
@@ -7,3 +8,4 @@ total=int(total)
 print(total)
 total=str(total)
 print("total volume:",total)
+print(random.randrange(5, 10))
