@@ -5,8 +5,8 @@ length = len(cha)
 first = cha[0]
 last = cha[-1]
 sli = cha[:50]
-replace1 = cha.replace("Python", "PYTHON")
-chac = replace1.lower()
+chac = cha.lower()
+replace1 = chac.replace("Python", "PYTHON")
 a = chac.strip()
 list1 = a.split()
 print(length)
@@ -21,4 +21,6 @@ if b:
 print("The course description is {} characters long and has {} words.".format(
     length, len(list1)
 ))
+
+
 
