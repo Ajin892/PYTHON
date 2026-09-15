@@ -18,5 +18,5 @@ first_participants = (
     Web_Development[0],
     Data_Science_copy[0],
     UIUX_Design[0]
-)
+    )
 print("First participants:", first_participants)
